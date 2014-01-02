@@ -1,6 +1,9 @@
 Syntax: a syntax highlighting library for Ruby.
 
-1.1.0 In Progress
+1.2.0 02 Jan 2014
+  Cleaned up Gemspec, added license and homepage - @grosser.
+
+1.1.0 11 Dec 2013
   Published from https://github.com/dblock/syntax, a now maintained fork.
   The project builds again and runs, fixes by @dblock, @distler.
 
