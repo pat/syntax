@@ -12,8 +12,8 @@ This is a simple syntax highlighting library for Ruby. It is a naive syntax anal
 
 There are primarily two uses for the Syntax library:
 
-# Convert text from a supported syntax to a supported highlight format (like HTML).
-# Tokenize text in a supported syntax and process the tokens directly.
+* Convert text from a supported syntax to a supported highlight format (like HTML).
+* Tokenize text in a supported syntax and process the tokens directly.
 
 === Highlighting a supported syntax
 
