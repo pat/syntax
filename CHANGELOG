@@ -1,6 +1,6 @@
 Syntax: a syntax highlighting library for Ruby.
 
-1.2.1 Next
+1.2.1 01 June 2016
   Explicitly require 'set' - @jberkel.
 
 1.2.0 02 Jan 2014
