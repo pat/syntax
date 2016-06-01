@@ -1,4 +1,4 @@
-require 'rubygems'
+require 'rubygems/builder'
 require 'rake'
 require 'rake/testtask'
 require 'rdoc/task'
@@ -50,6 +50,7 @@ task :clean do
   rm_rf "pkg"
   rm_rf "api"
   rm_rf "doc/manual-html"
+  rm_rf "syntax-*.gem"
 end
 
 Rake::TestTask.new do |t|
