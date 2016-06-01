@@ -18,4 +18,6 @@
     rake clean
     rake package
     gem push pkg/syntax-x.y.z.gem
+    git tag -v...
+    git push --tags
 
