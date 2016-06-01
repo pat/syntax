@@ -1,3 +1,5 @@
+$:.unshift File.expand_path(File.join(File.dirname(__FILE__), '../../lib'))
+
 # --------------------------------------------------------------------------
 # Portions of this code were taken from the "poignant.rb" script created
 # by whytheluckystiff, which generates "Why's (Poignant) Guide to Ruby".
