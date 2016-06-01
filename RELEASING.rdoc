@@ -2,7 +2,18 @@
 
 * Update version in <tt>lib/syntax/version.rb</tt>.
 
-* Build the gem, use Ruby 1.9.3.
+* Use Ruby ruby-1.9.3-p0 and RubyGems 1.8.30.
+
+    rvm install ruby-1.9.3-p0
+    rvm install rubygems 1.8.30 --force
+
+* Install dependencies.
+
+    gem install bundler
+    gem install RedCloth
+    gem install rake
+
+* Build the gem, use Ruby 1.9.3-p383, anything newer won't work.
 
     rake clean
     rake package
