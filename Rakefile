@@ -1,4 +1,9 @@
-require 'rubygems/builder'
+begin
+  require 'rubygems/builder'
+rescue LoadError
+  puts "rubygems/builder could not be required."
+end
+
 require 'rake'
 require 'rake/testtask'
 require 'rdoc/task'

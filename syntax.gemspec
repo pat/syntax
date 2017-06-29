@@ -8,4 +8,9 @@ Gem::Specification.new "syntax", Syntax::Version::STRING do |s|
   s.email = "jamis@jamisbuck.org"
   s.homepage = "https://github.com/dblock/syntax"
   s.license = "BSD"
+
+  s.add_development_dependency "rake", "< 11.0.0"
+  s.add_development_dependency "rake-contrib"
+  s.add_development_dependency "rdoc"
+  s.add_development_dependency "test-unit"
 end
