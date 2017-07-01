@@ -12,3 +12,5 @@ rvm:
   - jruby-19mode
   - jruby-9.1.12.0
 sudo: false
+before_script:
+- if (ruby -e "exit RUBY_VERSION.to_f >= 2.4"); then export RUBYOPT="--enable-frozen-string-literal"; fi; echo $RUBYOPT
